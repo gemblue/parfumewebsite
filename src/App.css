@@ -1,0 +1,26 @@
+.App {
+  min-height: 100vh;
+  background: var(--white);
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles for accessibility */
+*:focus {
+  outline: 2px solid var(--primary-brown);
+  outline-offset: 2px;
+}
+
+/* Remove outline for mouse users */
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Selection colors */
+::selection {
+  background: var(--light-brown);
+  color: var(--dark-brown);
+}

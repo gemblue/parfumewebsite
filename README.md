@@ -54,13 +54,6 @@ Website berbasis ReactJS dengan Vite untuk brand parfum "Men Parfume" yang mengg
    npm run build
    ```
 
-## Konfigurasi Contentful
-
-Project ini sudah dikonfigurasi dengan:
-- **Space ID**: `ap2ugth218pu`
-- **Access Token**: `0fGbAwOUgZKzv85CX5HOqkekbm0YZUYIHeuYRwEmDbg`
-- **Content Type**: `parfumes`
-
 ### Field yang digunakan:
 - `name` - Nama produk
 - `description` - Deskripsi produk
